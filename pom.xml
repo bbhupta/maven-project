@@ -14,6 +14,8 @@
 
 		<mule.version>3.8.4</mule.version>
 		<mule.tools.version>1.2</mule.tools.version>
+		<uid>bnb_for_mule</uid>
+		<pwd></pwd>
 	</properties>
 
 	<build>
@@ -61,8 +63,8 @@
 				<configuration>
 					<deploymentType>cloudhub</deploymentType>
 					<muleVersion>${mule.version}</muleVersion>
-					<username>bnb_for_mule</username>
-					<password>Jumbochn@26</password>
+					<username>${uid}</username>
+					<password>${pwd}</password>
 					<workerType>Micro</workerType>
 					<redeploy>true</redeploy>
 					<environment>Sandbox</environment>
