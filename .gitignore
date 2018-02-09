@@ -1,0 +1,7 @@
+# ------- Mule specifi files ------#
+.classpath
+.project
+.settings
+mule-project.xml
+# ------- Maven Generated Files ------#
+target
